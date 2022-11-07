@@ -9,6 +9,8 @@ int main() {
         i++;
     }
     
-    
+    std::cout << "All Finished!" << std::endl;
+
+    return 0;
 
 }
