@@ -1,5 +1,14 @@
 #include <iostream>
 
 int main() {
-  std::cout << "Hello World!\n";
+    int i = 0;
+
+    while (i <= 10)
+    {
+        std::cout << i << std::endl;
+        i++;
+    }
+    
+    
+
 }
