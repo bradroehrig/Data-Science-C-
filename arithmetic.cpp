@@ -8,9 +8,7 @@ int main(){
     int num2 {100};
 
 
-    cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
-
-    cout << endl;
-
+    // cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
+    
     return 0;
 }
