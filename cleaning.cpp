@@ -11,9 +11,11 @@ int main(){
 
     float sales_tax {0.06}; 
 
-    cout << "Number of rooms: "<< number_of_rooms;
-    cout << "Price per room: " << price_per_room <<endl;   
-    cout << "$" << number_of_rooms * price_per_room <<endl;
+    cout << "**************************************" << endl;
+    cout << "Estimate for carpet cleaning server: " << endl;
+    cout << "Number of rooms: "<< number_of_rooms <<endl; 
+    cout << "Price per room: $" << price_per_room <<endl;   
+    cout << "Cost: $" << number_of_rooms * price_per_room <<endl;
     cout << "Tax: $" << number_of_rooms * price_per_room * sales_tax <<endl;
 
     return 0;
