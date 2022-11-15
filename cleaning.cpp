@@ -8,8 +8,8 @@ int main(){
     cin >> number_of_rooms;
 
     int price_per_room {30};
-
-    float sales_tax {0.06}; 
+    float sales_tax {0.06};
+    int quote_length {30};
 
     cout << "\nEstimate for carpet cleaning service" << endl;
     cout << "Number of rooms: "<< number_of_rooms <<endl; 
@@ -18,7 +18,7 @@ int main(){
     cout << "Tax: $" << number_of_rooms * price_per_room * sales_tax <<endl;
     cout << "=============================================" <<endl;
     cout << "Total estimate is $" << (number_of_rooms * price_per_room) + (number_of_rooms * price_per_room * sales_tax) <<endl; 
-    cout << "This estimate is good for 30 days" << endl;
+    cout << "This estimate is good for " << quote_length << " days" << endl;
 
     return 0;
 }
