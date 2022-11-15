@@ -9,6 +9,7 @@ int main(){
     int num2 {20};
 
     num1 = 100;
+    num1 = num2;
 
     cout << "num1 is " << num1 << endl;
     cout << "num2 is " << num2 << endl;
