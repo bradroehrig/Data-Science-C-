@@ -3,13 +3,13 @@ int main(){
     
     using namespace std;
 
-    int number_of_rooms;
+    int number_of_rooms {0};
     cout << "Enter the number of rooms to clean: ";
     cin >> number_of_rooms;
 
-    int price_per_room {30};
-    float sales_tax {0.06};
-    int quote_length {30};
+    const double price_per_room {30};
+    const double sales_tax {0.06};
+    const double quote_length {30}; //days
 
     cout << "\nEstimate for carpet cleaning service" << endl;
     cout << "Number of rooms: "<< number_of_rooms <<endl; 
