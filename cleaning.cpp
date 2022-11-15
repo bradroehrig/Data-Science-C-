@@ -17,6 +17,7 @@ int main(){
     cout << "Price per room: $" << price_per_room <<endl;   
     cout << "Cost: $" << number_of_rooms * price_per_room <<endl;
     cout << "Tax: $" << number_of_rooms * price_per_room * sales_tax <<endl;
+    cout << "This estimate is good for 30 days" << endl;
 
     return 0;
 }
