@@ -11,12 +11,13 @@ int main(){
 
     float sales_tax {0.06}; 
 
-    cout << "**************************************" << endl;
-    cout << "Estimate for carpet cleaning server: " << endl;
+    cout << "\nEstimate for carpet cleaning service" << endl;
     cout << "Number of rooms: "<< number_of_rooms <<endl; 
     cout << "Price per room: $" << price_per_room <<endl;   
     cout << "Cost: $" << number_of_rooms * price_per_room <<endl;
     cout << "Tax: $" << number_of_rooms * price_per_room * sales_tax <<endl;
+    cout << "=============================================" <<endl;
+    cout << "Total estimate is $" << (number_of_rooms * price_per_room) + (number_of_rooms * price_per_room * sales_tax) <<endl; 
     cout << "This estimate is good for 30 days" << endl;
 
     return 0;
