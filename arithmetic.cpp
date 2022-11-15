@@ -10,5 +10,28 @@ int main(){
 
     // cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
     
+    int result {0};
+
+    result = num1 + num2;
+    cout << num1 << " + " << num2 << " = " << result << endl;
+
+    result = num1 - num2;
+    cout << num1 << " + " << num2 << " = " << result << endl;
+
+    result = num1 * num2;
+    cout << num1 << " + " << num2 << " = " << result << endl;
+
+    result = num2 / num1;
+    cout << num1 << " + " << num2 << " = " << result << endl;
+
+    result = num1 % num2;
+    cout << num1 << " % " << num2 << " = " << result << endl;
+
+    num1 = 10;
+    num2 = 3;
+
+    result = num1 % num2;
+    cout << num1 << " % " << num2 << " = " << result << endl;
+
     return 0;
 }
