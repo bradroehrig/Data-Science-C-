@@ -1,31 +1,40 @@
 #include <iostream>
+#include <vector>
+
+using namespace std;
+
 int main(){
+    vector <char> vowels {'a', 'e', 'i', 'o', 'u'};
+
+    cout << vowels[0] << endl;
+    cout << vowels[4] << endl;
+
+    vector <int> test_scores {100,98,89};
+
+    cout << "\nTest Scores using array syntax:" << endl;
+    cout << test_scores[0] << endl;
+    cout << test_scores[1] << endl;
+    cout << test_scores[2] << endl;
+
+    cout << "\nTest Scores using vector syntax:" << endl;
+    cout << test_scores.at(0) << endl;
+    cout << test_scores.at(1) << endl;
+    cout << test_scores.at(2) << endl;
+    cout << "\nThere are " << test_scores.size() << " scores in the vector" << endl;
+
+    cout << "\nEnter 3 test scores: ";
+    cin >> test_scores.at(0);
+    cin >> test_scores.at(1);
+    cin >> test_scores.at(2);
+
+    cout << "\nUpdated test scores: " << endl;
+    cout << test_scores.at(0) << endl;
+    cout << test_scores.at(1) << endl;
+    cout << test_scores.at(2) << endl;
     
-    using namespace std;
 
 
 
-
-
-
-
-
-    // int number_of_rooms {0};
-    // cout << "Enter the number of rooms to clean: ";
-    // cin >> number_of_rooms;
-
-    // const double price_per_room {30};
-    // const double sales_tax {0.06};
-    // const double quote_length {30}; //days
-
-    // cout << "\nEstimate for carpet cleaning service" << endl;
-    // cout << "Number of rooms: "<< number_of_rooms <<endl; 
-    // cout << "Price per room: $" << price_per_room <<endl;   
-    // cout << "Cost: $" << number_of_rooms * price_per_room <<endl;
-    // cout << "Tax: $" << number_of_rooms * price_per_room * sales_tax <<endl;
-    // cout << "=============================================" <<endl;
-    // cout << "Total estimate is $" << (number_of_rooms * price_per_room) + (number_of_rooms * price_per_room * sales_tax) <<endl; 
-    // cout << "This estimate is good for " << quote_length << " days" << endl;
 
     return 0;
 }
