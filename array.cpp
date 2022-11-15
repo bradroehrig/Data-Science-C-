@@ -31,10 +31,27 @@ int main(){
     cout << test_scores.at(0) << endl;
     cout << test_scores.at(1) << endl;
     cout << test_scores.at(2) << endl;
-    
 
+    cout << "\nEnter a test score to add to the vector: ";
+    int score_to_add {0};
+    cin >> score_to_add;
 
+    test_scores.push_back(score_to_add);
 
+    cout << "\nEnter one more test score to add to the vector: ";
+
+    cin >> score_to_add;
+
+    test_scores.push_back(score_to_add);
+
+    cout << "|nTest scores are now: " << endl;
+    cout << test_scores.at(0) << endl;
+    cout << test_scores.at(1) << endl;
+    cout << test_scores.at(2) << endl;
+    cout << test_scores.at(3) << endl;
+    cout << test_scores.at(4) << endl;
+
+    cout << "\nThere are now " << test_scores.size() << " scores in the vector" << endl;
 
     return 0;
 }
