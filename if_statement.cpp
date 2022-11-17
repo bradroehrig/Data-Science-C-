@@ -19,6 +19,12 @@ int main() {
 
     }
 
+    if (num <= min) {
+        cout <<"\n================== if state 1 =========================" << endl;
+
+
+    }
+
 
     cout << endl;
     return 0;
