@@ -15,7 +15,7 @@ int main() {
         cout << num << " is greater than " << min << endl;
 
         int diff {num - min};
-        cout << num << "is" << diff << " greater than " << min << endl;
+        cout << num << " is " << diff << " greater than " << min << endl;
 
     }
 
