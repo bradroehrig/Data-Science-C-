@@ -20,8 +20,8 @@ int main() {
     }
 
     if (num <= min) {
-        cout <<"\n================== if state 1 =========================" << endl;
-
+        cout <<"\n================== if state 2 =========================" << endl;
+        cout << num << " is less than or equal to " << max << endl;
 
     }
 
