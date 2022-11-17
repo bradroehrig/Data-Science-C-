@@ -10,8 +10,14 @@ int main() {
     cout << "Enter a number between " << min << " and " << max << ":";
     cin >> num;
 
-    if (num >= min)
+    if (num >= min) {
+        cout <<"\n================== if state 1 =========================" << endl;
+        
         cout << num << " is greater than " << min << endl;
+
+
+    }
+
 
     cout << endl;
     return 0;
