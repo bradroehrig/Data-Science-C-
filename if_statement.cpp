@@ -12,9 +12,10 @@ int main() {
 
     if (num >= min) {
         cout <<"\n================== if state 1 =========================" << endl;
-        
         cout << num << " is greater than " << min << endl;
 
+        int diff {num - min};
+        cout << num << "is" << diff << " greater than " << min << endl;
 
     }
 
